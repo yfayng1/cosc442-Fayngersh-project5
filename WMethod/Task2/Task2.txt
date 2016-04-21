@@ -1,0 +1,253 @@
+Test Generation Using the W-method. V2.0. August 1, 2013
+
+Enter filename: Task2FSM.txt
+FSM input from:  Task2FSM.txt
+States: 5
+Edges 10
+Input alphabet:
+0
+1
+
+Output alphabet:
+0
+1
+
+From 	 Input/Output 	 To
+1	 0/0		 2
+1	 1/0		 1
+2	 1/0		 5
+2	 0/0		 3
+3	 0/0		 4
+3	 1/0		 5
+4	 1/1		 3
+4	 0/0		 2
+5	 0/0		 4
+5	 1/0		 1
+
+Transition cover set (P). 11 entries.
+Empty 0 00 000 001 01 010 0100 0101 011 1 
+
+W Set. 2 entries.
+01 1 
+
+Number of Test Cases :17
+Test cases: [00001, 0001, 001, 00101, 0011, 01, 010001, 01001, 0101, 010101, 01011, 011, 01101, 0111, 1, 101, 11]
+
+FSM execution begins. Input: 0 0 0 0 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 0 Next state: 3 Output: 0
+Current state: 3
+ Input: 0 Next state: 4 Output: 0
+Current state: 4
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+
+FSM execution completed. Final state: 5
+Output pattern:00000
+
+FSM execution begins. Input: 0 0 0 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 0 Next state: 3 Output: 0
+Current state: 3
+ Input: 0 Next state: 4 Output: 0
+Current state: 4
+ Input: 1 Next state: 3 Output: 1
+
+FSM execution completed. Final state: 3
+Output pattern:0001
+
+FSM execution begins. Input: 0 0 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 0 Next state: 3 Output: 0
+Current state: 3
+ Input: 1 Next state: 5 Output: 0
+
+FSM execution completed. Final state: 5
+Output pattern:000
+
+FSM execution begins. Input: 0 0 1 0 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 0 Next state: 3 Output: 0
+Current state: 3
+ Input: 1 Next state: 5 Output: 0
+Current state: 5
+ Input: 0 Next state: 4 Output: 0
+Current state: 4
+ Input: 1 Next state: 3 Output: 1
+
+FSM execution completed. Final state: 3
+Output pattern:00001
+
+FSM execution begins. Input: 0 0 1 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 0 Next state: 3 Output: 0
+Current state: 3
+ Input: 1 Next state: 5 Output: 0
+Current state: 5
+ Input: 1 Next state: 1 Output: 0
+
+FSM execution completed. Final state: 1
+Output pattern:0000
+
+FSM execution begins. Input: 0 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+
+FSM execution completed. Final state: 5
+Output pattern:00
+
+FSM execution begins. Input: 0 1 0 0 0 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+Current state: 5
+ Input: 0 Next state: 4 Output: 0
+Current state: 4
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 0 Next state: 3 Output: 0
+Current state: 3
+ Input: 1 Next state: 5 Output: 0
+
+FSM execution completed. Final state: 5
+Output pattern:000000
+
+FSM execution begins. Input: 0 1 0 0 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+Current state: 5
+ Input: 0 Next state: 4 Output: 0
+Current state: 4
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+
+FSM execution completed. Final state: 5
+Output pattern:00000
+
+FSM execution begins. Input: 0 1 0 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+Current state: 5
+ Input: 0 Next state: 4 Output: 0
+Current state: 4
+ Input: 1 Next state: 3 Output: 1
+
+FSM execution completed. Final state: 3
+Output pattern:0001
+
+FSM execution begins. Input: 0 1 0 1 0 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+Current state: 5
+ Input: 0 Next state: 4 Output: 0
+Current state: 4
+ Input: 1 Next state: 3 Output: 1
+Current state: 3
+ Input: 0 Next state: 4 Output: 0
+Current state: 4
+ Input: 1 Next state: 3 Output: 1
+
+FSM execution completed. Final state: 3
+Output pattern:000101
+
+FSM execution begins. Input: 0 1 0 1 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+Current state: 5
+ Input: 0 Next state: 4 Output: 0
+Current state: 4
+ Input: 1 Next state: 3 Output: 1
+Current state: 3
+ Input: 1 Next state: 5 Output: 0
+
+FSM execution completed. Final state: 5
+Output pattern:00010
+
+FSM execution begins. Input: 0 1 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+Current state: 5
+ Input: 1 Next state: 1 Output: 0
+
+FSM execution completed. Final state: 1
+Output pattern:000
+
+FSM execution begins. Input: 0 1 1 0 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+Current state: 5
+ Input: 1 Next state: 1 Output: 0
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+
+FSM execution completed. Final state: 5
+Output pattern:00000
+
+FSM execution begins. Input: 0 1 1 1 Initial state: 1
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+Current state: 5
+ Input: 1 Next state: 1 Output: 0
+Current state: 1
+ Input: 1 Next state: 1 Output: 0
+
+FSM execution completed. Final state: 1
+Output pattern:0000
+
+FSM execution begins. Input: 1 Initial state: 1
+Current state: 1
+ Input: 1 Next state: 1 Output: 0
+
+FSM execution completed. Final state: 1
+Output pattern:0
+
+FSM execution begins. Input: 1 0 1 Initial state: 1
+Current state: 1
+ Input: 1 Next state: 1 Output: 0
+Current state: 1
+ Input: 0 Next state: 2 Output: 0
+Current state: 2
+ Input: 1 Next state: 5 Output: 0
+
+FSM execution completed. Final state: 5
+Output pattern:000
+
+FSM execution begins. Input: 1 1 Initial state: 1
+Current state: 1
+ Input: 1 Next state: 1 Output: 0
+Current state: 1
+ Input: 1 Next state: 1 Output: 0
+
+FSM execution completed. Final state: 1
+Output pattern:00
